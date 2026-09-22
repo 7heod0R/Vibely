@@ -170,23 +170,6 @@ Mot de passe : root
 - contrôle serveur de la propriété des playlists ;
 - `htmlspecialchars()` pour l'affichage des données dynamiques.
 
-## Documentation de révision
-
-Le fichier [`DOCUMENTATION_ORAL.md`](DOCUMENTATION_ORAL.md) contient la préparation à l'oral :
-
-- architecture MVC ;
-- POO et héritage ;
-- rôle de chaque dossier et fichier ;
-- fonctionnement des principales méthodes ;
-- flux de données ;
-- authentification ;
-- recherche ;
-- catalogue administrateur ;
-- base de données et relations ;
-- diagrammes de flux, cas d'utilisation et classes ;
-- questions possibles du jury avec réponses ;
-- vocabulaire technique à connaître.
-
 ## Dossiers
 
 Chaque dossier important possède également son propre `README.md` afin de pouvoir expliquer rapidement son rôle pendant la présentation.
