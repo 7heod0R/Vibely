@@ -9,6 +9,8 @@ class Utilisateur extends Model
         ]);
         return (int) $this->db->lastInsertId();
     }
-    public function findByEmail(string $email): ?array { return $this->fetchOne('SELECT * FROM utilisateur WHERE email = :email', ['email' => $email]); }
-    public function findById(int $id): ?array { return $this->fetchOne('SELECT id, nom, email, role, date_inscription FROM utilisateur WHERE id = :id', ['id' => $id]); }
+    public function findByEmail(string $email): ?array { return $this->fetchOne('SELECT * FROM utilisateur WHERE email = :email', ['email' => $email]); 
+                                                       }
+    public function findById(int $id): ?array { return $this->fetchOne('SELECT id, nom, email, role, date_inscription FROM utilisateur WHERE id = :id', ['id' => $id]); 
+                                              }
 }
