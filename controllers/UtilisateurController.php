@@ -3,7 +3,8 @@ require_once __DIR__ . '/../models/Utilisateur.php';
 class UtilisateurController
 {
     private Utilisateur $utilisateurModel;
-    public function __construct(){ $this->utilisateurModel=new Utilisateur(); }
+    public function __construct(){ 
+        $this->utilisateurModel=new Utilisateur(); }
     public function connexion(): void
     {
         if ($_SERVER['REQUEST_METHOD']==='POST') {
